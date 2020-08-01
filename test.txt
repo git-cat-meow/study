@@ -14,3 +14,5 @@ git remote add origin リポジトリURI
 
 5. ローカルリポジトリ内のファイルをgithubに送信
 git push origin master
+
+test branch!
