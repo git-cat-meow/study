@@ -1,1 +1,16 @@
 hello! github!
+
+1. ローカルリポジトリ作成
+$ git init
+
+2. ローカルリポジトリに変更点追加（インデクスに追加）
+$ git add ファイル名
+
+3. ローカルリポジトリにインデックス登録したファイルを登録
+$ git commit -m "comments"
+
+4. 追加したインデックスをgithubに作成
+git remote add origin リポジトリURI
+
+5. ローカルリポジトリ内のファイルをgithubに送信
+git push origin master
